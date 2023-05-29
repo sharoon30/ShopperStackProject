@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Welcome Page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home screen is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Account settings menu is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Wishlist screen is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The product was added to cart ]]>
+    </line>
+    <line>
+      <![CDATA[Cart Creen is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The address screen is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Add address screen is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Name is entered in anme text field]]>
+    </line>
+    <line>
+      <![CDATA[House is entered]]>
+    </line>
+    <line>
+      <![CDATA[Street is entered]]>
+    </line>
+    <line>
+      <![CDATA[Landmark entered]]>
+    </line>
+    <line>
+      <![CDATA[Country selected]]>
+    </line>
+    <line>
+      <![CDATA[state selected]]>
+    </line>
+    <line>
+      <![CDATA[City selecetd]]>
+    </line>
+    <line>
+      <![CDATA[The deliverable pins are displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pincode entered]]>
+    </line>
+    <line>
+      <![CDATA[Phone Number Entered]]>
+    </line>
+    <line>
+      <![CDATA[The address is added successfully and the message is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-29T08:21:37 IST" name="Default suite" finished-at="2023-05-29T08:23:09 IST" duration-ms="91813">
+    <groups>
+    </groups>
+    <test started-at="2023-05-29T08:21:37 IST" name="Default test" finished-at="2023-05-29T08:23:09 IST" duration-ms="91813">
+      <class name="testScripts.TC_E2E_07">
+        <test-method is-config="true" signature="capabilitiesSettings()[pri:0, instance:testScripts.TC_E2E_07@3d1cfad4]" started-at="2023-05-29T08:21:37 IST" name="capabilitiesSettings" finished-at="2023-05-29T08:21:55 IST" duration-ms="18083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capabilitiesSettings -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:testScripts.TC_E2E_07@3d1cfad4]" started-at="2023-05-29T08:21:55 IST" name="loginToApplication" finished-at="2023-05-29T08:22:22 IST" duration-ms="27277" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome Page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="testScripts()[pri:0, instance:testScripts.TC_E2E_07@3d1cfad4]" started-at="2023-05-29T08:22:22 IST" name="testScripts" finished-at="2023-05-29T08:23:09 IST" duration-ms="46391" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[THe address is not selected expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: THe address is not selected expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at testScripts.TC_E2E_07.testScripts(TC_E2E_07.java:134)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Home screen is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Account settings menu is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Wishlist screen is displayed]]>
+            </line>
+            <line>
+              <![CDATA[The product was added to cart ]]>
+            </line>
+            <line>
+              <![CDATA[Cart Creen is displayed]]>
+            </line>
+            <line>
+              <![CDATA[The address screen is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Add address screen is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Name is entered in anme text field]]>
+            </line>
+            <line>
+              <![CDATA[House is entered]]>
+            </line>
+            <line>
+              <![CDATA[Street is entered]]>
+            </line>
+            <line>
+              <![CDATA[Landmark entered]]>
+            </line>
+            <line>
+              <![CDATA[Country selected]]>
+            </line>
+            <line>
+              <![CDATA[state selected]]>
+            </line>
+            <line>
+              <![CDATA[City selecetd]]>
+            </line>
+            <line>
+              <![CDATA[The deliverable pins are displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pincode entered]]>
+            </line>
+            <line>
+              <![CDATA[Phone Number Entered]]>
+            </line>
+            <line>
+              <![CDATA[The address is added successfully and the message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScripts -->
+      </class> <!-- testScripts.TC_E2E_07 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
